@@ -100,7 +100,7 @@ h1 {
     font-family: myFont;
     font-size: 60px;
     letter-spacing: 1px;
-    width: 0;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     border-right: 4px solid #fff;
@@ -113,7 +113,7 @@ h1 {
     }
     70%,90%
     {
-        width: 31%;
+        width: 100%;
     }
 }
 
@@ -152,6 +152,12 @@ section {
     align-items: center;
     justify-content: space-between;
     
+}
+.flexboxmid9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .flexboxright {
     display: flex;
