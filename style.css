@@ -41,12 +41,14 @@ h2:hover {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding-top: 20px;
     background: transparent;
     display: flex;
-    padding-left: 34%;
     align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
+
 .navbar a {
     position: relative;
     font-size: 25px;
