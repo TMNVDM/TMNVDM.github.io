@@ -42,7 +42,7 @@ h2:hover {
     left: 0;
     width: 100%;
     padding-top: 20px;
-    background: transparent;
+    color: #000000;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -72,8 +72,51 @@ h2:hover {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px){
 
+    #header{
+        background-image: url(images/background.gif);
+    }
 
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
+
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background: #070eff;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+}
 
 
 .video-bg {
@@ -96,6 +139,7 @@ h1 {
     overflow: hidden;
     border-right: 4px solid #fff;
     animation: typing 3s linear infinite;
+    
 }
 @keyframes typing {
     0%,10%,100%
@@ -124,7 +168,7 @@ section {
 }
 
 #section2 {
-    background-color: #232323;
+    background-color: #0000544f;
     height: 100vh;
     display: flex;
 }
@@ -144,7 +188,7 @@ section {
     justify-content: space-between;
     
 }
-.flexboxmid9 {
+.flexboxmid0 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,6 +241,7 @@ section {
     animation: spin 6s infinite;
     color: #c30010;
 }
+
 @keyframes spin {
     10% {
         transform: translateY(-112%);
@@ -233,8 +278,6 @@ p {
     color: white;
 }
 
-
-
 .wrapper-icons{
     display: inline-flex;
     list-style: none;
@@ -263,8 +306,6 @@ p {
     
 }
 
-
-
 .wrapper-icons .instagram:hover {
     background-image: conic-gradient(#9513fc,#b100c1,#fe0264, #fe5a1d,#feb901,#b100c1,#9513fc);
 }
@@ -287,124 +328,49 @@ p {
 
 
 #section3 {
-    background-color: #232323;
+    background-color: #d0d0d0;
     height: 100vh;
     display: flex;
 }
-.projectphotoone{
-    display: flex;
 
+.wrappertwo {
+    box-sizing: content-box;
+    background-color: #232323;
+    height: auto;
+    width: auto;
+    display: flex;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    font-family: myFont2;
+    font-size: 100px;
+    font-weight: 500;
+    box-shadow: 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #570711, 0 0 98px #de0a26;
+    color: #fff;
 }
-.flexboxmid8 {
+.flexboxleft2 {
+    display: flex;
+    width: 25%;
+}
+
+.flexboxmid2 {
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
+    justify-content: center;
+}
+
+.flexboxright2 {
+    display: flex;
+    width: 25%;
 }
 
 .wrapper3 {
-    background-color: #232323;
-    border: 3px solid black;
-    height: auto;
-    width: 400px;
-    display: flex;
-    border-radius: 10px;
-    font-size: 1px;
-    padding: 5px 5px;
-    box-shadow: 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #570711, 0 0 98px #de0a26;
-    text-align: center;
-    flex-direction: column;
-}
-.projectphotoone:hover {
-    transform: scale(1.01);
-}
 
-
-h4 {
-    font-family: myFont2;
-    color: transparent;
-    font-size: 100px;
-    margin-top: 10px;
-    -webkit-text-stroke: 1px #fff;
-    background: url(back.png);
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 20s linear infinite;
 }
-@keyframes back {
-    100%{
-        background-position: 1900px 0;
-    }
-}
-
-
-
-#section4 {
-    background-color: #232323;
-    height: 100vh;
-    display: flex;
-}
-
-p2 {
-    color: white;
-    font-family: myFont;
-    font-size: 25px;
-    margin-bottom: 25px;
-}
-p3 {
-    color: white;
-    font-family: myFont;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-p4 {
-    color: white;
-    font-family: myFont;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-
-.wrapper4 {
-    background-color: #232323;
-    border: 3px solid black;
-    height: auto;
-    width: 80%;
-    display: flex;
-    border-radius: 10px;
-    font-size: 19px;
-    padding: 15px 10px;
-    box-shadow: 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #570711, 0 0 98px #de0a26;
-    /* 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #ff2643, 0 0 98px #de0a26 */
-    margin-bottom: 325px;
-    text-align: center;
-    flex-direction: column;
-    margin-top: 125px;
-}
-
-.flexboxleft5 {
-    display: flex;
-    width: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.flexboxright5 {
-    display: flex;
-    width: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-.logootjes {
-    display: flex;
-    height: 150px;
-    width: 100%px;
-}
-
 
 
 a[href^="#"] {
