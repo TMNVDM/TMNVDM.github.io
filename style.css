@@ -2,7 +2,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 *:focus,
 *:active {
@@ -309,9 +309,9 @@ p {
     width: 400px;
     display: flex;
     border-radius: 10px;
-    font-size: 19px;
+    font-size: 1px;
     padding: 5px 5px;
-    box-shadow: 0 0 5px blue, 0 0 15px #7039f1, 0 0 20px blue, 0 0 40px #772dee, 0 0 60px blue, 0 0 10px #4218fa, 0 0 98px #3911ee;
+    box-shadow: 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #570711, 0 0 98px #de0a26;
     text-align: center;
     flex-direction: column;
 }
@@ -323,8 +323,8 @@ p {
 h4 {
     font-family: myFont2;
     color: transparent;
-    font-size: 60px;
-    margin-top: 75px;
+    font-size: 100px;
+    margin-top: 10px;
     -webkit-text-stroke: 1px #fff;
     background: url(back.png);
     -webkit-background-clip: text;
@@ -374,7 +374,7 @@ p4 {
     border-radius: 10px;
     font-size: 19px;
     padding: 15px 10px;
-    box-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 157, 0), 0 0 20px rgb(0, 255, 0), 0 0 40px rgb(48, 255, 48), 0 0 60px rgb(0, 255, 0), 0 0 10px rgb(39, 186, 39), 0 0 98px rgb(0, 255, 0);
+    box-shadow: 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #570711, 0 0 98px #de0a26;
     /* 0 0 5px #de0a26, 0 0 15px #b72337, 0 0 20px #de0a26, 0 0 40px #af0017, 0 0 60px #de0a26, 0 0 10px #ff2643, 0 0 98px #de0a26 */
     margin-bottom: 325px;
     text-align: center;
