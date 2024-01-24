@@ -2,8 +2,13 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    
+
+
     <link rel="icon" href="website_icon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <title>My Portfolio Website</title>
 </head>
 <body>
@@ -13,8 +18,8 @@
     <header class="containernavbar">
             <nav class="navbar">
                 <a href="#section1" class="active">Home <span><i class="fas fa-home"></i></span></a>
-                <a href="#section2">Portfolio <span><i class="fas fa-user"></i></span></a>
-                <a href="#section3">Projects <span><i class="fas fa-project-diagram"></i></span></a>
+                <a href="#section2">About Me <span><i class="fas fa-user"></i></span></a>
+                <a href="#section3">Portfolio <span><i class="fas fa-project-diagram"></i></span></a>
             </nav>
     </header>
     
@@ -59,6 +64,8 @@
                     <span class="rotate">a Developer</span>
                 </div>
             </div>
+
+            
     
             <div class="wrapper2">
                 <p>Hello, my name is Thijmen, I am 17 years old. I study software developer, currently year 2, at the ROC van Twente located 
@@ -68,7 +75,20 @@
                    
                 <div class="contact"> 
                     <p>Interested? You can contact me with the information below, or have a look on my socials with the icons on the right.</p>
-                    <p>• thijmenvdmeer@gmail.com ++ 06-24666782 •</p>
+                        <div class="form-group">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Your Email</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Your Message</label>
+                            <textarea class="form-control" id="contactMessage" rows="3" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
                 </div>
                 </p>
             </div>
@@ -106,7 +126,7 @@
         <div class="flexboxmid2">
             <div class="wrappertwo">
                 My 
-                <span style="color: #c30010;">Projects</span>
+                <span class="typer">Portfolio</span>
             </div>
     
             <div class="wrapper3">
@@ -127,6 +147,8 @@
             <a class="text-reset fw-bold">Thijmen vd Meer</a>
           </div>
     </footer>
+
+    
 
     <script src="script.js"></script>
 </body>
