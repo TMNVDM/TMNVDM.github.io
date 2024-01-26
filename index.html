@@ -1,81 +1,121 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="icon" href="images/website_icon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <title>My Portfolio Website</title>
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Thijmen vd Meer</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#AboutMe">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Projects">Projects</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">Thijmen vd Meer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#AboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <section id="Home">
+    <section id="Home">
         <div class="container">
             <div class="row">
-              <div class="col">
+                <div class="col">
 
-              </div>
-              <div class="name col">
-                <h1>Thijmen van der Meer</h1>
-                <h2 class="mt-5">Student Software Developer.</h2>
-              </div>
-              <div class="col">
-                
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section id="AboutMe">
-        <div class="about container">
-                <h3>About Me</h3>
-                <p>Hello, my name is Thijmen, I am 17 years old. I study software developer, currently year 2, at the ROC van Twente located 
-                    in Enschede. With this education I have learned the basics of; C#, HTML and CSS, I am also learning how to make small Unity 
-                    games/ projects. With all the knowledge I have acquired, from the lessons to the projects I have completed, I can use it in the workplace. 
-                    An example is that I have already worked a lot in teamwork, this is very important in this field of work. 
-                </p>
-                <div class="image">
-                    <img src="images/pasfoto2.png" alt="Image not loading">
                 </div>
-          </div>
+                <div class="name col">
+                    <h1>Thijmen van der Meer</h1>
+                    <h2 class="mt-5">Student Software Developer.</h2>
+                </div>
+                <div class="col">
 
-      </section>
-
-      <section id="Projects">
-        <div class="project container">
-            
-
-
-
-
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
+    <section id="AboutMe">
+        <div class="about container">
+            <h3>About Me</h3>
+            <p>Hello, my name is Thijmen, I am 17 years old. I study software developer, currently year 2, at the ROC
+                van Twente located
+                in Enschede. With this education I have learned the basics of; C#, HTML and CSS, I am also learning how
+                to make small Unity
+                games/ projects. With all the knowledge I have acquired, from the lessons to the projects I have
+                completed, I can use it in the workplace.
+                An example is that I have already worked a lot in teamwork, this is very important in this field of
+                work.
+            </p>
+            <div class="image">
+                <img src="images/pasfoto2.png" alt="Image not loading">
+            </div>
+            <div class="form-group">
+                <label for="contactName">Your Name</label>
+                <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="contactEmail">Your Email</label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="contactMessage">Your Message</label>
+                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="Projects">
+        <div class="project container">
+            <h4>Projects:</h4>
+            <p>Quantum Rush:
+                A school project that I created together with a small group of classmates. This game had to be a
+                MicroGame/ Phone game, so we made a game based on Subway Surfers. Quantum Rush is set in a futuristic
+                cyberpunk theme and you run through a city with neon lights. It is a endless runner in which you have to
+                avoid various obstacles to stay alive. On the way you can pick up coins, the goal is to pick up as much
+                coins that you can and all coins you picked up will be saved. The intention for the entire project was
+                to also include powerups, this was not possible due to lack of time.
+                We worked as a group with the SCRUM method and a Code of Conduct, this had to be observed by all group
+                members.
+                I have worked on the designs of all the menu's, I put music over the whole game and in the settings menu
+                you can higher or lower the volume. You can pause the game and there is a game over screen. One of the
+                requirements for the project were saving data using Javascript, I used it to save the coins you picked
+                up while playing the game. I also helped with debugging various problems that my group members
+                encountered.
+                we also had to make a promotional video for this project, you can watch it on the left side of the
+                screen. On the right side of the screen you can see the 3 softwares we used the most.</p>
+
+            <div class="imagegame">
+                <img src="images/Screenshot 2023-12-07 123329.png" alt="Image not loading">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

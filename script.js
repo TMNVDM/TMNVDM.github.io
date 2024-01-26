@@ -1,8 +1,10 @@
-ScrollReveal({
-    reset: true, 
-    distance: '60px',
-    duration: 2500,
-    delay: 400
-});
-
-ScrollReveal().reveal('.about', { delay: 500});
+const navLinks = document.querySelector('.nav-links');
+  const hamburgerMenu = document.querySelector('.hamburger-menu');
+  hamburgerMenu.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-active');
+  });
+  $(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+      $(this).tab('show');
+    });
+  });
